@@ -1,0 +1,192 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 1200px;
+  margin: 0 auto;
+}
+.link {
+  color: #95e1d3;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  margin-right: 55px;
+  text-transform: uppercase;
+}
+.item {
+  display: inline-block;
+}
+.link-1 {
+  color: #f38181;
+}
+.link-5 {
+  margin-right: 0px;
+}
+.center {
+  text-align: center;
+  margin-top: 100px;
+}
+.who {
+  font-family: Kaushan Script;
+  font-size: 24px;
+  color: #333333;
+}
+.meet {
+  font-family: Montserrat;
+  font-weight: bold;
+  color: #333333;
+  text-transform: uppercase;
+}
+.red {
+  background-color: #f38181;
+  width: 60px;
+  height: 4px;
+  display: inline-block;
+}
+.text {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #b6b6b6;
+  width: 1104px;
+  margin: 0 auto;
+}
+.center-2 {
+  text-align: center;
+}
+.people {
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 27px;
+  position: relative;
+}
+.people:last-child {
+  margin: 0;
+}
+.point {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-variant: small-caps;
+  color: #333333;
+}
+.small {
+  font-family: Roboto;
+  font-style: italic;
+  font-size: 15px;
+  color: #b6b6b6;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 80px;
+  padding-top: 10px;
+  border-top: 1px solid #b6b6b6;
+}
+.text-foot {
+  font-size: 14px;
+  color: #333333;
+  font-family: Montserrat;
+}
+.email {
+  width: 230px;
+  height: 39px;
+  border: 1px solid #b6b6b6;
+  padding-left: 10px;
+  font-family: Roboto;
+}
+.email::placeholder {
+  font-family: Roboto;
+}
+.sub {
+  width: 150px;
+  height: 40px;
+  border: 1px solid #95e1d3;
+  background-color: #95e1d3;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: Montserrat;
+  text-transform: uppercase;
+}
+.sub:hover {
+  color: royalblue;
+  background-color: rebeccapurple;
+  cursor: pointer;
+}
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1168px;
+  margin: 0 auto;
+  margin-top: 65px;
+}
+.ser {
+  flex-basis: calc((100% - 0px) / 3);
+  display: flex;
+  align-items: flex-start;
+  height: 74px;
+  margin-bottom: 100px;
+}
+.ser:nth-child(4) {
+  margin-bottom: 0;
+}
+.ser:nth-child(5) {
+  margin-bottom: 0;
+}
+.ser:nth-child(6) {
+  margin-bottom: 0;
+}
+
+.title {
+  font-family: Montserrat;
+  font-size: 14px;
+  color: #333333;
+  text-transform: uppercase;
+}
+.text-block {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #b6b6b6;
+}
+.colum {
+  margin-left: 10px;
+}
+.soc {
+  height: 470px;
+  width: 380px;
+  background: linear-gradient(
+    180deg,
+    rgba(239, 139, 138, 0.8) 0%,
+    rgba(229, 207, 130, 0.8) 100%
+  );
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.soc:hover {
+  opacity: 1;
+  transition: 1s;
+}
+.sm {
+  width: 57px;
+  height: 57px;
+  margin-left: 1px;
+}
+.sm:first-child {
+  margin-left: 0px;
+}
+
+.soc-1 {
+  background-color: #95e1d3;
+}
+.soc-2 {
+  background-color: #fce38a;
+}
+.foto {
+  margin-top: 16px;
+}
