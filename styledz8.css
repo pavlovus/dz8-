@@ -1,9 +1,11 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
 .header {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  width: 1200px;
-  margin: 0 auto;
 }
 .link {
   color: #95e1d3;
@@ -47,16 +49,14 @@
   font-family: Roboto;
   font-size: 15px;
   color: #b6b6b6;
-  width: 1104px;
-  margin: 0 auto;
 }
 .center-2 {
+  margin-top: 27px;
   text-align: center;
 }
 .people {
   display: inline-block;
-  margin-right: 30px;
-  margin-top: 27px;
+  margin-right: 26px;
   position: relative;
 }
 .people:last-child {
@@ -78,8 +78,7 @@
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  width: 1200px;
-  margin: 0 auto;
+
   margin-top: 80px;
   padding-top: 10px;
   border-top: 1px solid #b6b6b6;
@@ -117,8 +116,7 @@
 .services {
   display: flex;
   flex-wrap: wrap;
-  width: 1168px;
-  margin: 0 auto;
+
   margin-top: 65px;
 }
 .ser {
